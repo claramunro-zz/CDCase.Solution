@@ -7,11 +7,13 @@
   <body>
     <h1>Add a new CD to @Model.GetName()</h1>
 
-  <form action='/artists/@Model.GetId()/CDs' method='post'>
+  <form action='/@Model.GetId()/CDs' method='post'>
     <input id='artistId' name='artistId' type='hidden' value='@Model.GetId()'>
     <label for='CDDescription'>CD description</label>
     <input id='CDDescription' name='CDDescription' type='text'>
     <button type='submit'>Add item</button>
   </form>
+
+  <p><a href='/@Model.GetId()'>Return to artists list</a></p>
   </body>
 </html>

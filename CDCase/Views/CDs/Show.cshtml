@@ -1,7 +1,6 @@
 <h1>CD Details: </h1>
 
 <h2>@Model["CD"].GetDescription()</h2>
-<h3>Category: @Model["artist"].GetName()</h3>
+<h3>Artist: @Model["artist"].GetName()</h3>
 
-<a href='/artists/@Model["artist"].GetId()/CDs/new'>Add another CD</a>
-<a href='/artists'>View all artists</a>
+<a href='/@Model["artist"].GetId()'>Return to artists list</a>

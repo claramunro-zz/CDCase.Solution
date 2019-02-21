@@ -7,14 +7,14 @@ namespace CDCase.Controllers
   public class CDsController : Controller
   {
 
-    [HttpGet("/artists/{artistId}/CD/new")]
+    [HttpGet("/{artistId}/CD/new")]
     public ActionResult New(int artistId)
     {
        Artist artist = Artist.Find(artistId);
        return View(artist);
     }
 
-    [HttpGet("/artists/{artistId}/CDs/{CDId}")]
+    [HttpGet("/{artistId}/CDs/{CDId}")]
     public ActionResult Show(int artistId, int CDId)
     {
       CD cd = CD.Find(CDId);

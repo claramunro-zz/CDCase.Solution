@@ -8,20 +8,20 @@ namespace CDCase.Controllers
   public class ArtistsController : Controller
   {
 
-    [HttpGet("/artists")]
+    [HttpGet("/")]
     public ActionResult Index()
     {
       List<Artist> allArtists = Artist.GetAll();
       return View(allArtists);
     }
 
-    [HttpGet("/artists/new")]
+    [HttpGet("/new")]
     public ActionResult New()
     {
       return View();
     }
 
-    [HttpPost("/artists")]
+    [HttpPost("/")]
     public ActionResult Create(string artistName)
     {
       Artist newArtist = new Artist(artistName);
@@ -29,7 +29,7 @@ namespace CDCase.Controllers
       return View("Index", allArtists);
     }
 
-    [HttpGet("/artists/{id}")]
+    [HttpGet("/{id}")]
     public ActionResult Show(int id)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
@@ -41,7 +41,7 @@ namespace CDCase.Controllers
     }
 
     // This one creates new Items within a given Category, not new Artists:
-    [HttpPost("/artists/{artistId}/CDs")]
+    [HttpPost("/{artistId}/CDs")]
     public ActionResult Create(int artistId, string CDDescription)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
