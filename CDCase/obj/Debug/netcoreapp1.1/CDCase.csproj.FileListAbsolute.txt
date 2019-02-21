@@ -1,8 +1,0 @@
-/Users/Guest/Desktop/CD.Solution/CDCase/bin/Debug/netcoreapp1.1/CDCase.deps.json
-/Users/Guest/Desktop/CD.Solution/CDCase/bin/Debug/netcoreapp1.1/CDCase.runtimeconfig.json
-/Users/Guest/Desktop/CD.Solution/CDCase/bin/Debug/netcoreapp1.1/CDCase.runtimeconfig.dev.json
-/Users/Guest/Desktop/CD.Solution/CDCase/obj/Debug/netcoreapp1.1/CDCase.AssemblyInfo.cs
-/Users/Guest/Desktop/CD.Solution/CDCase/bin/Debug/netcoreapp1.1/CDCase.dll
-/Users/Guest/Desktop/CD.Solution/CDCase/bin/Debug/netcoreapp1.1/CDCase.pdb
-/Users/Guest/Desktop/CD.Solution/CDCase/obj/Debug/netcoreapp1.1/CDCase.dll
-/Users/Guest/Desktop/CD.Solution/CDCase/obj/Debug/netcoreapp1.1/CDCase.pdb
